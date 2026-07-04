@@ -1,0 +1,84 @@
+<!-- ============================================================
+  JC HUGHES — SECTION 2 : MEET THE TEAM
+  Paste into a GoHighLevel Custom Code / HTML element.
+  IMAGES — upload to your GHL Media Library, then replace:
+    assets/john-mclaughlin.jpg
+    assets/mark-connolly.jpg
+    assets/ian-mcclelland.jpg
+    assets/stephen-hotchkiss.jpg
+    assets/clare-kerr.jpg
+    assets/niamh-rankin.jpg
+============================================================ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  .jch-s2 *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',Arial,sans-serif}
+  .jch-s2{background:#f4f0ec;overflow:hidden}
+  .jch-s2-inner{max-width:1150px;margin:0 auto;padding:40px 24px 30px;
+    display:flex;align-items:center;gap:50px}
+  .jch-s2-head{flex:0 0 32%}
+  .jch-s2-head h2{color:#161616;font-size:44px;font-weight:700;line-height:1.15;display:inline-block;
+    padding-bottom:10px;border-bottom:3px solid #7dafa8}
+  .jch-s2-grid{flex:1 1 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:38px 30px}
+  .jch-s2-member{text-align:center}
+  .jch-s2-member img{width:150px;height:150px;object-fit:cover;display:block;margin:0 auto 16px;
+    background:#e8e8e8;box-shadow:0 3px 10px rgba(0,0,0,.10)}
+  .jch-s2-member h3{color:#161616;font-size:15.5px;font-weight:600;margin-bottom:10px}
+  .jch-s2-member .jch-s2-line{width:96px;height:2px;background:#7dafa8;margin:0 auto 12px}
+  .jch-s2-member p{color:#161616;font-size:13.5px;font-weight:600}
+  /* diagonal cut into the dark green of the next section */
+  .jch-s2-wedge{height:130px;background:#f4f0ec;position:relative}
+  .jch-s2-wedge::after{content:'';position:absolute;inset:0;background:#35504c;
+    clip-path:polygon(0 30%, 100% 100%, 0 100%)}
+  @media (max-width:900px){
+    .jch-s2-inner{flex-direction:column;gap:30px;padding-top:34px}
+    .jch-s2-head h2{font-size:32px}
+    .jch-s2-grid{grid-template-columns:repeat(2,1fr);gap:28px 18px}
+    .jch-s2-member img{width:130px;height:130px}
+    .jch-s2-wedge{height:70px}
+  }
+</style>
+<section class="jch-s2">
+  <div class="jch-s2-inner">
+    <div class="jch-s2-head"><h2>Meet the team</h2></div>
+    <div class="jch-s2-grid">
+      <div class="jch-s2-member">
+        <img src="assets/john-mclaughlin.jpg" alt="John McLaughlin">
+        <h3>John McLaughlin</h3>
+        <div class="jch-s2-line"></div>
+        <p>Managing Director</p>
+      </div>
+      <div class="jch-s2-member">
+        <img src="assets/mark-connolly.jpg" alt="Mark Connolly">
+        <h3>Mark Connolly</h3>
+        <div class="jch-s2-line"></div>
+        <p>Partner</p>
+      </div>
+      <div class="jch-s2-member">
+        <img src="assets/ian-mcclelland.jpg" alt="Ian McClelland">
+        <h3>Ian McClelland</h3>
+        <div class="jch-s2-line"></div>
+        <p>Partner</p>
+      </div>
+      <div class="jch-s2-member">
+        <img src="assets/stephen-hotchkiss.jpg" alt="Stephen Hotchkiss">
+        <h3>Stephen Hotchkiss</h3>
+        <div class="jch-s2-line"></div>
+        <p>Associate</p>
+      </div>
+      <div class="jch-s2-member">
+        <img src="assets/clare-kerr.jpg" alt="Clare Kerr">
+        <h3>Clare Kerr</h3>
+        <div class="jch-s2-line"></div>
+        <p>Solicitor</p>
+      </div>
+      <div class="jch-s2-member">
+        <img src="assets/niamh-rankin.jpg" alt="Niamh Rankin">
+        <h3>Niamh Rankin</h3>
+        <div class="jch-s2-line"></div>
+        <p>Solicitor</p>
+      </div>
+    </div>
+  </div>
+  <div class="jch-s2-wedge"></div>
+</section>
